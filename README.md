@@ -1,0 +1,3 @@
+# reddit-bot
+
+A machine learning model that detects whether a Reddit comment from a specified subreddit is considered cyberbullying or not. The model uses a Twitter dataset with tweets labelled as offensive or non-offensive. The data is stored in a pickled panda dataframe with the Pickles and Pandas library. The strings of data are then cleaned to the stem of each word. 3 extraction methods are used including: Bag of Words (BoW), Term Frequency - Inverse Document Frequency (TF-IDF), and a custom approach using Lexicons. The first 2 models are trained using Naive Bayes classifier, while the custom model uses Support Vector Machines. The model are evualated using 3 metrics: recall, precision and f1 score.
